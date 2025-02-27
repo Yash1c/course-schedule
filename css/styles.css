@@ -1,0 +1,36 @@
+/* Custom styles to complement Bootstrap */
+.list-group-item {
+    transition: transform 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    transform: translateX(5px);
+}
+
+.event-date {
+    min-width: 100px;
+}
+
+.event-time {
+    min-width: 90px;
+    color: var(--bs-info);
+}
+
+.event-description {
+    font-size: 0.9rem;
+    color: var(--bs-secondary);
+    margin-top: 0.5rem;
+}
+
+/* Loading state styles */
+#loading {
+    min-height: 200px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .event-date, .event-time {
+        min-width: auto;
+        margin-bottom: 0.5rem;
+    }
+}
