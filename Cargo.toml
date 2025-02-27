@@ -1,0 +1,10 @@
+[package]
+name = "proj_agenda"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4.4.0" # Framework para construir aplicações web assíncronas em Rust
+actix-files = "0.6.2" # Suporte para servir arquivos estáticos com Actix
+env_logger = "0.11.6" # Logger configurável via variáveis de ambiente
+log = "0.4.20" # Biblioteca para logging em Rust
